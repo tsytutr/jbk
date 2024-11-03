@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZA TECH - Leading Software Company</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #141E30, #243B55);
+            color: #E5E5E5;
+            line-height: 1.6;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background: linear-gradient(to right, #1E3C72, #2A5298);
+            padding: 60px 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-out;
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: #FDC830;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.4em;
+            color: #FFD700;
+            margin-top: 10px;
+        }
+
+        .intro, .features, .services, .footer {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+            animation: slideUp 1.5s ease;
+        }
+
+        .intro h2, .features h2, .services h2 {
+            font-size: 2.8em;
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .intro p, .features p, .services p {
+            color: #E0E0E0;
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .feature {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #FFD700;
+            font-weight: 500;
+        }
+
+        .feature:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services li {
+            background-color: rgba(255, 215, 0, 0.15);
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            color: #FFD700;
+            transition: background-color 0.3s;
+        }
+
+        .services li:hover {
+            background-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .footer {
+            margin-top: 60px;
+            background: linear-gradient(to right, #2A5298, #1E3C72);
+            padding: 30px;
+            border-radius: 10px;
+            color: #FFD700;
+        }
+
+        .footer p {
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .footer a {
+            padding: 15px 30px;
+            background-color: #FFD700;
+            color: #243B55;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s, transform 0.2s;
+            font-weight: 600;
+        }
+
+        .footer button:hover {
+            background-color: #FDC830;
+            transform: scale(1.1);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>ZA TECH </h1>
+        <p>The Leading Software Company</p>
+    </header>
+
+    <section class="intro">
+        <h2>Who Are We?</h2>
+        <p>ZA TECH  is the largest and most advanced software development company. We lead the industry with innovative software solutions that drive digital transformation for businesses of all sizes.</p>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Da-Tak?</h2>
+        <div class="feature">
+            <h3>Innovative Solutions</h3>
+            <p>Our solutions are designed to be forward-thinking and tailored to meet the evolving needs of your business.</p>
+        </div>
+        <div class="feature">
+            <h3>Customer-Centric Approach</h3>
+            <p>Our primary goal is to understand your needs and ensure our software elevates your business to new heights.</p>
+        </div>
+        <div class="feature">
+            <h3>24/7 Technical Support</h3>
+            <p>We provide continuous support to keep your software running smoothly, so you can focus on what matters most.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Software Development</li>
+            <li>Enterprise Solutions</li>
+            <li>Mobile Application Development</li>
+            <li>Cloud Solutions and Integration</li>
+            <li>Cybersecurity Services</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>Partner with Da-Tak and empower your business with world-class software!</p>
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fchat.whatsapp.com%2FCpxGvqwMeAe7db5Rm9xBZW%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2WNP9THs9EoF5DU6EpY0dEniW8ayP7eOHpkb9sTxsJzKQd0G4uFZQgCHU_aem_u-mqGSDtyxNV6a6P1gXLRg&h=AT1G1kfgRoDu-pkyzozIh2dn-KK9vjlijVxIJSGAD2bo8K10eV0xy_3YcOzeCauWQuVxwkFGIES17eR-8PftNZffQH5kngHxQy5zNxIh-zilEj3rAV6_ALM0A4CZeH2pVdU2oQ" onclick="window.location.href='contact.html'">Get in Touch</button>
+    </footer>
+</body>
+</html>
